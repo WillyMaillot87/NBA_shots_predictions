@@ -67,7 +67,7 @@ How to use it ?
 
     `source venv/bin/activate`
 
-    `pip install -m requirements.txt`
+    `pip install -r requirements.txt`
 
 **2 - Download the data**
 
@@ -75,7 +75,11 @@ How to use it ?
 
 To automatically download all the datasets and the models you will need to get an access token. Please contact @willymaillot87.
 
-Once you get the token execute the script ***'download_data.py'***
+Once you get the token execute the following command :
+
+`mkdir data`
+
+Then execute the script ***'download_data.py'***
 
 **Second Solution : manually download the datasets and create the models**
 
@@ -100,3 +104,5 @@ Once you get the datasets just run all the cells from the notebooks:
 - Open your browser to this adress :
     
     *localhost:8501*
+
+------------

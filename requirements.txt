@@ -89,3 +89,4 @@ watchdog==3.0.0
 wcwidth==0.2.8
 xgboost==2.0.1
 zipp==3.17.0
+streamlit_image_coordinates==0.1.6

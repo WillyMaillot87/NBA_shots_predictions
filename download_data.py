@@ -36,7 +36,7 @@ print("Le téléchargement des datasets est terminé.")
 print("Téléchargement des modèles pour streamlit...")
 
 # Répertoire de destination des datasets
-streamlit_dir = 'streamlit_app/'
+streamlit_dir = 'streamlit_nba/'
 
 streamlit_files_to_download = [
     'XGBoost_James.joblib',
@@ -62,7 +62,7 @@ streamlit_files_to_download = [
 
 # Télécharger les fichiers uniquement s'ils ne sont pas déjà présents dans le répertoire "data"
 for file_name in streamlit_files_to_download :
-    local_path = os.path.join(models_dir, file_name)
+    local_path = os.path.join(streamlit_dir, file_name)
 
     # Vérifier si le fichier existe déjà
     if not os.path.exists(local_path):

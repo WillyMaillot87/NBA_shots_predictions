@@ -9,7 +9,7 @@ st.set_page_config(
 with open("style.css", "r") as f:
     style = f.read()
 
-st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
+    st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
 
 
